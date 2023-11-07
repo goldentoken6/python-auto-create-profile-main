@@ -23,7 +23,6 @@ extension_paths = [
 ]
 
 base_directory = 'C:/path/to/profiles'
-
 #Before restart fake, Delete the folder and its contents
 if os.path.exists(base_directory):
     # Delete the folder
